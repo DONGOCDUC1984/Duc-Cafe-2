@@ -1,0 +1,361 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 1;
+}
+
+#logo1 {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.header h3 {
+  color: chocolate;
+  font-family: "Dancing Script";
+  text-shadow: 3px 3px 3px #ababab;
+  margin-top: 15px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin-top: 60px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#navbar li {
+  float: left;
+  width: 25%;
+}
+
+#navbar li a {
+  display: block;
+  color: chocolate;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: white;
+}
+
+.icon-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+.icon-bar a {
+  text-align: center;
+  width: 60px;
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+  transition: width 0.2s;
+}
+
+.icon-bar a:hover {
+  width: 80px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background: #fb3958;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.tiktok {
+  background: #ff0050;
+  color: white;
+}
+
+.zalo {
+  background: #0068ff;
+  color: white;
+}
+
+#Intro {
+  background-image: url(img/antique-cafe-bg-01.jpg);
+  background-size: contain;
+  color: white;
+}
+
+#Introp1 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  color: chocolate;
+}
+
+#Introp1 h3 {
+  font-family: "Dancing Script";
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+#Introp2 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+#Introp2 h3 {
+  text-align: center;
+}
+
+#Introp3 {
+  width: 200px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#cup {
+  margin-bottom: -6px;
+}
+.Letsexplore {
+  color: chocolate;
+}
+
+.Letsexplore:hover {
+  color: white;
+}
+
+#Menu {
+  background-image: url(img/antique-cafe-bg-02.jpg);
+  background-size: contain;
+}
+
+#Menup1 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  color: chocolate;
+
+  font-family: "Dancing Script";
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+#Menup2and3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Menup2,
+#Menup3 {
+  width: 300px;
+  background-color: dimgray;
+  border-radius: 15px;
+  color: chocolate;
+}
+
+#Menup2 ul li,
+#Menup3 ul li {
+  display: flex;
+  flex-direction: column;
+}
+#Menup2 ul li:hover,
+#Menup3 ul li:hover {
+  color: white;
+}
+
+#Menup2 ul li img,
+#Menup3 ul li img {
+  border-radius: 5px;
+  margin-left: -20px;
+  width: 250px;
+  height: 150px;
+  transition: transform 0.3s;
+}
+
+#Menup2 ul li img:hover,
+#Menup3 ul li img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#Menup2 ul li div,
+#Menup3 ul li div {
+  margin-left: 5px;
+}
+
+#About {
+  background-image: url(img/antique-cafe-bg-03.jpg);
+  background-size: contain;
+}
+
+#Aboutp1 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  background-color: white;
+  border-radius: 15px;
+  color: chocolate;
+}
+
+#Aboutp1 h1 {
+  text-align: center;
+  font-family: "Dancing Script";
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+#Aboutp2 {
+  width: 200px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 15px;
+}
+.Contactus {
+  color: chocolate;
+}
+
+.Contactus:hover {
+  color: white;
+}
+
+#Contact {
+  background-image: url(img/duccoffee1.jpg);
+  background-size: contain;
+}
+
+#Contactp1 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 15px;
+  color: chocolate;
+}
+
+#Contactp1 h3 {
+  text-align: center;
+}
+#Contactp2 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  opacity: 0.8;
+  padding-left: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+#Contactp2 h3 {
+  text-align: center;
+}
+#Name,
+#Email,
+#Message {
+  width: 200px;
+}
+
+#Submit {
+  width: 60px;
+}
+
+#Footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: black;
+}
+
+#Footerp2 {
+  margin-left: 20px;
+}
+
+#Footerp2icons {
+  display: flex;
+  flex-direction: row;
+}
+
+#Footerp2icons a {
+  font-size: 30px;
+  padding: 5px;
+  color: black;
+  margin: 2px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+#Footerp2icons a:hover {
+  background-color: aqua;
+  color: white;
+  transform: scale(1.5, 1.5);
+}
